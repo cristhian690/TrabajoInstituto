@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Tu mejor amigo merece lo mejor</title>
   <link rel="stylesheet" href="estilos.css" />
-  <link rel="stylesheet" href="estilos-navbar.css" />
-  <link rel="stylesheet" href="estilos-form.css" />
   <link rel="icon" href="images/favicon.png" />
 </head>
 <body>
@@ -15,12 +13,11 @@
   <nav id="navbar">
     <div class="nav-logo">
       <img src="images/favicon.png" alt="logo" class="nav-icon" />
-      
+      PetWorld
     </div>
     <ul class="nav-links">
       <li><a href="#inicio">Inicio</a></li>
       <li><a href="#nosotros">Nosotros</a></li>
-      <li><a href="#servicios">Servicios</a></li>
       <li><a href="#galeria">Galería</a></li>
       <li><a href="#equipo">Equipo</a></li>
       <li><a href="#blog">Blog</a></li>
@@ -29,7 +26,6 @@
     <div class="hamburger" id="hamburger">&#9776;</div>
   </nav>
 
-  
   <section id="inicio" class="hero">
     <div class="hero-content animate-fade">
       <h1>Tu mejor amigo<br><span>merece lo mejor</span></h1>
@@ -38,11 +34,10 @@
       <a href="#contacto" class="btn-hero btn-outline">Contáctanos</a>
     </div>
     <div class="hero-img animate-slide">
-      <img src="images/banner.png" alt="mascota feliz" />
+      <img src="images/mascota-hero.png" alt="mascota feliz" />
     </div>
   </section>
 
-  
   <section id="nosotros" class="seccion seccion-clara">
     <div class="contenedor">
       <h2 class="titulo-seccion">¿Quiénes somos?</h2>
@@ -57,7 +52,7 @@
           </div>
         </div>
         <div class="nosotros-img">
-          <div class="img-placeholder">🐶🐱🐰</div>
+          <img src="images/nosotros.png" alt="nosotros" style="width:100%;border-radius:16px;" />
         </div>
       </div>
     </div>
@@ -98,7 +93,7 @@
       <h2 class="titulo-seccion">Galería</h2>
       <div class="video-wrap">
         <iframe
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          src="video.mp4"
           title="Video PetWorld"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -108,49 +103,24 @@
     </div>
   </section>
 
-  
-  <section id="equipo" class="seccion seccion-oscura">
-    <div class="contenedor">
-      <h2 class="titulo-seccion claro">Nuestro equipo</h2>
-      <div class="team-grid">
-        <div class="team-card">
-          <div class="avatar av1">AL</div>
-          <h4>Ana López</h4>
-          <p>Veterinaria</p>
-        </div>
-        <div class="team-card">
-          <div class="avatar av2">CR</div>
-          <h4>Carlos Ruiz</h4>
-          <p>Entrenador canino</p>
-        </div>
-        <div class="team-card">
-          <div class="avatar av3">MT</div>
-          <h4>María Torres</h4>
-          <p>Estilista de mascotas</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  
   <section id="blog" class="seccion seccion-clara">
     <div class="contenedor">
       <h2 class="titulo-seccion">Blog y consejos</h2>
       <div class="blog-grid">
         <div class="blog-card">
-          <div class="blog-img">🐾</div>
+          <img src="images/blog1.png" alt="blog1" style="width:100%;border-radius:8px;margin-bottom:12px;" />
           <h4>5 consejos para cuidar a tu perro</h4>
           <p>Descubre los mejores hábitos para mantener a tu perro sano y feliz todos los días.</p>
           <a href="#" class="link-blog">Leer más →</a>
         </div>
         <div class="blog-card">
-          <div class="blog-img">🐱</div>
+          <img src="images/blog2.png" alt="blog2" style="width:100%;border-radius:8px;margin-bottom:12px;" />
           <h4>Alimentación ideal para gatos</h4>
           <p>Todo lo que necesitas saber sobre la nutrición de tu felino.</p>
           <a href="#" class="link-blog">Leer más →</a>
         </div>
         <div class="blog-card">
-          <div class="blog-img">💊</div>
+          <img src="images/blog3.png" alt="blog3" style="width:100%;border-radius:8px;margin-bottom:12px;" />
           <h4>Vacunas que no pueden faltar</h4>
           <p>Guía completa del calendario de vacunación para perros y gatos.</p>
           <a href="#" class="link-blog">Leer más →</a>
@@ -159,7 +129,6 @@
     </div>
   </section>
 
- 
   <section id="contacto" class="seccion seccion-oscura">
     <div class="contenedor">
       <h2 class="titulo-seccion claro">Contáctanos</h2>
@@ -191,6 +160,7 @@
       </form>
     </div>
   </section>
+
 
   <script src="animacion.js"></script>
 </body>
